@@ -1,0 +1,28 @@
+#ejercicio 4 act 1 
+# eliminación de espacios extra 
+# Si no especificas la cantidad de reemplazos,
+#  todas las ocurrencias de la subcadena serán reemplazadas.
+# El método replace()
+#  crea una nueva cadena con los reemplazos y no modifica la cadena original
+# nueva_cadena = cadena_original.replace(subcadena_a_reemplazar, 
+# subcadena_de_reemplazo, cantidad_de_reemplazos)
+# si no se especifica la cantidad de remplazos por default va remplazar todas las 
+# subcadenas especificadas 
+# str son inmutables por lo que se debe crear una nueva variable del str modificado
+# los argumentos de replace deben ser str, NO listas 
+
+
+a = input(f"ingresa un texto largo, de muchas palabras porfavor: ") 
+b = a.split()
+# Sep es el separador que se usa para dividir 
+print(b)
+for i in range(0, len(b), 1): 
+    b[i]
+    b[i].split(sep = "''"   )
+    b[i].split(sep = " ' ' ") = i
+    i.join() 
+
+    print(b[i].split(sep = "''"))
+
+# b[i].split(sep = " ' ' ") = i
+
