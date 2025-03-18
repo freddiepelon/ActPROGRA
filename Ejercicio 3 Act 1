@@ -1,0 +1,19 @@
+#contador de consonantes y vocales
+c = "aeiou"
+p = "bcdfghjklmnñpqrstvwxyz"
+vocales =  set(c)
+
+
+consonantes = set(p) 
+a = input(f"ingrese una frase: ") 
+
+A = set(a)
+#hacemos la intersección entre a y b 
+v = set.intersection(A, vocales) 
+
+
+contadorvoc = len(v) 
+c = set.intersection(A, consonantes) 
+contadorconst = len(c) 
+print(f" el numero de vocales de la palabra {a} es {contadorvoc} que son {v}") 
+print(f"el número de consonantes de la palabra {a} es {contadorconst} que son {c}")
