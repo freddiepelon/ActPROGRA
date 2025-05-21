@@ -1,3 +1,4 @@
+"SEMANA 4 EJERCICIO 2"
 #10demarzo 2025
 # programa que toma una frase y duevuelve la frase con palabras invertidas
 b = input(f"ingresa una frase o texto largo")
