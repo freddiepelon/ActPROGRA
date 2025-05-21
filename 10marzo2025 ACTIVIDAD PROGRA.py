@@ -1,3 +1,4 @@
+#SEMANA 4 EJERCICIO 1 -----
 #actividad programación basica
 a = input(f"ingresa un parrafo o un texto largo: " )
 #los conjuntos se representan con set
